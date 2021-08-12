@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import * as actions from './components/redux/phonebook/phonebook-actions';
-import { v4 as uuidv4 } from 'uuid';
+
 import './App.css';
 import ContactForm from './components/ContactForm/ContactForm';
 import Filter from './components/Filter/Filter';
